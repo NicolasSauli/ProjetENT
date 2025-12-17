@@ -1,0 +1,153 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: rgb(51, 59, 59);
+  padding-left: 7%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.nav-list {
+  display: flex;
+  gap: 35px;
+  color: white;
+  font-size: smaller;
+}
+
+
+.navbar-second {
+  position: fixed;
+  top: 40px; 
+  left: 0;
+  right: 0;
+  height: 110px;
+  background: white;
+  padding-left: 7%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  z-index: 999;
+}
+
+.nav-second-list {
+  display: flex;
+  align-items: center;
+  gap: 400px;
+  color: orangered;
+  font-size: xx-large;
+}
+
+
+main {
+  padding-top: 180px;
+  background-color: whitesmoke;
+}
+body{
+ background-color:whitesmoke;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+
+.login-box {
+  width: 1000px;
+  background:white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-box h2 {
+  text-align: left;
+  font-size: medium;
+  color: orangered;
+  margin-bottom: 10px;
+}
+
+.login-box input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.login-box p{
+    font-size: small;
+}
+.login-box button {
+  width: 120px;      
+  padding: 8px;
+  background: white;
+  color:orangered;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start; 
+  border-color: orangered;
+}
+
+.login-box span{
+      color:blue;
+    text-decoration: underline;
+
+}
+
+
+.login-box button:hover {
+  background: orangered;
+  color:white;
+}
+
+.mdp_oublie {
+  text-align: left;
+  color:blue;
+    text-decoration: underline;
+}
+
+
+
+.extra-box {
+  margin: 20px auto;
+  width: 1000px;
+  background: white;
+  padding: 20px 25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.extra-box span {
+  color: orangered;
+}
+
+.extra-btn {
+  padding: 6px 15px;
+  background: white;
+  color: orangered;
+  border-radius: 5px;
+  border-color: orangered;
+  cursor: pointer;
+}
+
+.extra-btn:hover {
+  background: orangered;
+  color: white;
+}
