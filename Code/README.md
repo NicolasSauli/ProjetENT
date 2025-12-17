@@ -1,7 +1,7 @@
 # Projet ENT Sauli Nicolas
 
-## Pour creer base de données -> executer install.php
-
+Pour creer base de données -> executer install.php
+```
 projet_ENT/
 ├── README.md
 ├── index.php
@@ -14,5 +14,8 @@ projet_ENT/
 ├── logout.php
 ├── install.php
 ├── logo.png
+```
+
+
 
 
